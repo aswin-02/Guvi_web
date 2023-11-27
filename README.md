@@ -1,6 +1,7 @@
 # Guvi_web
 A website that allows user to login and register their database.
 
+### Output Images
 Landing page
 ![Alt text](assets/background.JPEG)
 
