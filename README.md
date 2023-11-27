@@ -3,7 +3,7 @@ A website that allows user to login and register their database.
 
 ### Output Images
 Landing page
-![Alt text](assets/background.JPEG)
+![Alt text](assets/output/home.png)
 
 Signup
 ![Alt text](assets/output/signup.png)
