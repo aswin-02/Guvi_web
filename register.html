@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mt-5 d-flex justify-content-center">
+        <div id="form" class="p-5 rounded border border-light">
+          <h2 class="text-center mb-4">Login</h2>
+
+          <form action="" method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">First Name</label>
+                <input name="fName" value="" type="text" class="form-control" />
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Last Name</label>
+                <input name="lName" value="" type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Email</label>
+              <input name="email" value="" type="email" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Password</label>
+              <input
+                name="password"
+                value=""
+                type="password"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="inputCity">Confirm Password</label>
+              <input
+                name="cPassword"
+                value=""
+                type="password"
+                class="form-control"
+              />
+              <small id="message" class="form-text"></small>
+            </div>
+
+            <div class="text-center">
+              <input
+                class="btn btn-success"
+                type="button"
+                onclick="submitForm();"
+                name="save_contact"
+                value="Submit"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="../Guvi_web/js/register.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>

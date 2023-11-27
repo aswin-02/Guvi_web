@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="mt-5 d-flex justify-content-center">
+        <div id="form" class="p-5 rounded border border-light w-75 mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <strong>age</strong>
+                <div id="age">20</div>
+              </div>
+              <div class="col">
+                <strong>dob</strong>
+
+                <div id="dob ">06/02/2002</div>
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <strong>contact</strong>
+
+                <div id="contact">9876543210</div>
+              </div>
+              <div class="col">
+                <strong>adress</strong>
+
+                <div id="address">Coimbatore</div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              type="button"
+              class="btn btn-success mt-5"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              Edit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          
+          <div class="container">
+            <div class="mt-5 d-flex justify-content-center">
+              <div id="form" class="p-5 rounded border border-light">
+                <form action="" method="post">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="age">Agee</label>
+                      <input
+                        name="age"
+                        value=""
+                        type="text"
+                        class="form-control"
+                      />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                      <label for="dob">DOB</label>
+                      <input
+                        name="dob"
+                        value=""
+                        type="text"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact">contact</label>
+                    <input
+                      name="contact"
+                      value=""
+                      type="text"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="address">address</label>
+                    <input
+                      name="adress"
+                      value=""
+                      type="text"
+                      class="form-control"
+                    />
+                  </div>
+
+                  <small id="message" class="form-text"></small>
+
+                  <div class="text-center">
+                    <input
+                      class="btn btn-success"
+                      type="button"
+                      onclick="submitForm();"
+                      name="save_contact"
+                      value="Submit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="../Guvi_web/js/profile.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>

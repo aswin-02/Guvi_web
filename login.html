@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="mt-5 d-flex justify-content-center">
+        <div id="form" class="p-5 rounded border border-light">
+          <form action="" method="post">
+            <h2 class="text-center mb-4">Login</h2>
+            <label class="col-form-label">Username</label>
+
+            <input class="form-control" type="text" name="name" value="" />
+
+            <label class="col-form-label">Password</label>
+            <input
+              class="form-control"
+              type="password"
+              name="password"
+              value=""
+            />
+            <small id="message" class="form-text"></small>
+
+            <div class="text-center">
+              <input
+                class="btn btn-success mt-4"
+                type="button"
+                onclick="submitForm();"
+                name="save_contact"
+                value="login"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/login.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>

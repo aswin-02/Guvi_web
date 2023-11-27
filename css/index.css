@@ -1,0 +1,81 @@
+body {
+  background-image: url("../assets/background.JPEG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.content {
+  margin-top: 25%;
+  margin-left: 25%;
+}
+
+#login {
+  height: 200px;
+  width: 400px;
+  background-color: red;
+}
+
+#register {
+  height: 200px;
+  width: 400px;
+  background-color: red;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 40%;
+  width: 51%;
+  box-sizing: border-box;
+  padding-left: 15%;
+}
+
+#first_box {
+  padding-top: 15%;
+}
+
+.line {
+  margin-top: 9%;
+  height: 1px;
+  width: 50%;
+  background-color: rgb(103, 103, 103);
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-image: url("../assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .line {
+    display: none;
+  }
+
+  #login_btn {
+    color: green;
+    background-color: white;
+  }
+  #register {
+    margin-top: 50%;
+    background-color: red;
+  }
+  .container {
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+  }
+  .box {
+    width: 100%;
+  }
+
+  #inner_box {
+    padding-left: 0px;
+  }
+}
